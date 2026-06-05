@@ -1,9 +1,7 @@
 function Navbar() {
   return (
     <nav className="navbar">
-      <div className="logo">
-        Elementum
-      </div>
+      <h2 className="logo">Elementum</h2>
 
       <ul className="nav-links">
         <li>Home</li>

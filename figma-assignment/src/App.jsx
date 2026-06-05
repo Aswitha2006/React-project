@@ -1,3 +1,5 @@
+import "./App.css";
+
 import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import FeatureOne from "./components/FeatureOne";
@@ -16,13 +18,13 @@ function App() {
       <FeatureTwo />
       <Services />
       <Testimonial />
-<Newsletter />
+      <Newsletter />
 
-<div className="creative-divider">
-  ✦ ✦ ✦
-</div>
+      <div className="creative-divider">
+        ✦ ✦ ✦
+      </div>
 
-<Footer />
+      <Footer />
     </>
   );
 }
